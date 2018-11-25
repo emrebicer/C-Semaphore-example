@@ -14,7 +14,7 @@
 #include <time.h>
 
 #define TAXI_NUMBER 10
-#define STUDENT_NUMBER 100
+#define STUDENT_NUMBER 50
 #define TAXI_CAPACITY_FOR_STUDENTS 4
 
 //semaphore variables to avoid race-condition
