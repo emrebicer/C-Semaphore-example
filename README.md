@@ -15,7 +15,7 @@ and
 to run.
 
 ## Description
-This program is an example of how semaphores should be used in a multithreaded c programs.
+This program is an example of how semaphores should be used in multithreaded c programs.
 The idea is that there are students waiting at the enterance of the University campus at a taxi stop.The taxis are there to get the students to the library / classes.
 
 There are 3 states for **taxi drivers**;
