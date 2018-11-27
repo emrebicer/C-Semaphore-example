@@ -31,7 +31,7 @@ And there are 2 states for the **students**;
 
 The taxis and students are created as a thread and they all execute at the same time.
 But they do read and write some common data.
-To prevent **race-condition** problems we have to use semaphore structure.
+To prevent **race-condition** problems we have to use **semaphore** structure.
 
 ## Semaphore
 ```c
@@ -42,7 +42,7 @@ By locking it, you make sure that only this thread is accessing the specific dat
 ```c
 sem_post(&our_semaphore);
 ```
-And with this function, you simply tell other threads that this thread is done with the common data, so they can now acces is.
+And with this function, you simply tell other threads that this thread is done with the common data, so they can now acces it.
 
 E.g.
 ```C
